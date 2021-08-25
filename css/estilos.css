@@ -13,7 +13,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background: url(/assets/bg-5.jpg);
+    background: url(assets/bg-5.svg);
     background-size: cover;
   }
   
