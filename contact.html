@@ -71,6 +71,21 @@
         
 
     </section>
+    <form action="enviar.php" method="POST" name="contact-form">
+        <label for="name">Nombre</label>
+        <input type="text" id="name" name="nombre">
+    
+        <label for="mail">Email</label>
+        <input type="email" name="email" id="mail">
+    
+        <label for="asunto">Asunto</label>
+        <input type="subject" id="asunto" name="asunto">
+    
+        <label for="mensaje">Mensaje</label>
+        <textarea name="mensaje" id="mensaje" cols="30" rows="10"></textarea>
+    
+        <input type="submit" value="Enviar">
+    </form>
     
 </body>
 </html>
