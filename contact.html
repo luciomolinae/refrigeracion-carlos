@@ -43,18 +43,18 @@
             </div>
         
         <div class="contactForm">
-            <form>
+            <form action="enviar.php" method="POST" name="contact-form">
                 <h2>¡Dejanos tus dudas y consultas!</h2>
                 <div class="inputBox">
-                    <input type="text" name="" required="required">
+                    <input type="text" name="nombre" required="required">
                     <span>Nombre Completo</span>
                 </div>
                 <div class="inputBox">
-                    <input type="text" name="" required="required">
+                    <input type="text" name="mail" required="required">
                     <span>Email</span>
                 </div>
                 <div class="inputBox">
-                    <textarea required="required"></textarea>
+                    <textarea required="required" name="mensaje"></textarea>
                     <span>Escribe tu duda o consulta</span>
                 </div> 
                 <div class="inputBox">
