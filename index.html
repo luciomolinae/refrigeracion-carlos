@@ -139,27 +139,27 @@
                     <div class="row justify-content-center">
                         <div class="col-12 bg-light rounded mt-5">
                             <h1 class="text-center text-dark">Formulario de contacto</h1>
-                            <h2 class="text-center text-secondary">con envío de adjuntos</h2>
                             <hr class="bg-light w-75">
-                            <form action="enviarFormulario.php" method="post" id="formulario-ejemplo" class="w-75 mx-auto" enctype="multipart/form-data">
-                                <div class="form-group mb-3">
-                                    <input type="text" name="nombre" class="form-control bg-light" placeholder="Nombre" required>
-                                </div>
-                                <div class="form-group mb-3">
-                                    <input type="email" name="email" class="form-control bg-light" placeholder="Email" required>
-                                </div>
-                                <div class="form-group mb-3">
-                                    <input type="text" name="asunto" class="form-control bg-light" placeholder="Asunto" required>
-                                </div>
-                                <div class="form-group mb-3">
-                                    <textarea name="mensaje" id="mensaje" class="form-control bg-light" placeholder="Mensaje" rows="4" required></textarea>
-                                </div>
-                                <div class="form-group mb-3">
-                                    <input type="file" name="adjuntarArchivo" id="adjuntarArchivo" class="btn btn-secondary w-100">
-                                </div>
-                                <div class="form-group mb-3">
-                                    <input type="submit" name="enviar" id="enviar" class="btn btn-primary btn-block" data-bs-container="body" data-bs-toggle="popover" data-bs-placement="bottom" data-bs-content="Datos enviados!" value="Enviar">
-                                </div>
+                            <form action="enviarFormulario.php" method="post" class="pb-3">
+                                <div class="mb-3">
+                                    <label for="formGroupExampleInput" class="form-label">Nombre Completo</label>
+                                    <input type="text" name="name" id="name"  class="form-control name" placeholder="Nombre Completo">
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="formGroupExampleInput2" class="form-label">Correo Electrónico</label>
+                                    <input type="text" name="mail" id="mail" class="form-control email" placeholder="Introduzca su Correo Electrónico">
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="formGroupExampleInput" class="form-label">Teléfono</label>
+                                    <input type="text" name="phone" id="subject"  class="form-control subject" placeholder="Introduzca su Número Telefónico">
+                                  </div>
+                                  <div class="mb-3">
+                                    <label for="formGroupExampleInput2" class="form-label">Consulta</label>
+                                    <textarea name="message" class="form-control message" placeholder="Haga su consulta!" id="message"></textarea>
+                                  </div>
+                                  <div class="d-grid col-12 ">
+                                    <button type="submit" class="btn btn-primary">Enviar</button>
+                                  </div>
                             </form>
                         </div>
                     </div>
